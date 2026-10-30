@@ -857,6 +857,8 @@
   .tk-org .logo{ width:26px; height:26px; border-radius:7px; flex-shrink:0; display:block; }
   .tk-org .logo.mk{ border-radius:0; }
   .tk-org .logo.icon-berry{ background:linear-gradient(135deg,#FF6B6B,#845EC2); object-fit:cover; }
+  /* Wordmark-only brands sit on a white chip so their official colours read in both themes */
+  .tk-org .wordmark{ height:28px; width:auto; padding:6px 10px; background:#fff; border:1px solid var(--line); border-radius:7px; display:block; box-sizing:border-box; }
   .tk-desc{ font-size:15.5px; color:var(--text-dim); line-height:1.68; padding-top:2px; }
   .tk-actions{ margin-top:16px; display:flex; gap:10px; flex-wrap:wrap; }
   @media(max-width:1023px){
@@ -1568,7 +1570,7 @@
         <div class="tk-rail" aria-hidden="true"><span class="tk-node"></span></div>
         <div class="tk-head">
           <h3 class="tk-role">Junior Flutter Developer</h3>
-          <p class="tk-org">Refons Technology</p>
+          <p class="tk-org"><img class="wordmark" src="app_ico/web/refons-logo.webp" alt="" width="213" height="65" loading="lazy" decoding="async">Refons Technology</p>
         </div>
         <p class="tk-desc">Optimized offline data sync and local storage on a live production project. Took over and advanced a field application for AKEDAŞ within 2 weeks, including C# API integration.</p>
       </li>
@@ -1577,7 +1579,7 @@
         <div class="tk-rail" aria-hidden="true"><span class="tk-node"></span></div>
         <div class="tk-head">
           <h3 class="tk-role">Intern</h3>
-          <p class="tk-org">DenizBank</p>
+          <p class="tk-org"><img class="wordmark" src="app_ico/web/denizbank-logo.svg" alt="DenizBank" width="183" height="32" loading="lazy" decoding="async"></p>
         </div>
         <p class="tk-desc">Worked with large-scale data management and secure communication protocols in a banking environment.</p>
       </li>
